@@ -1,5 +1,5 @@
 create database db;
-
+<script src="https://gist.github.com/Jaideep02/6a0f1c12f905a695a6633279959f9c1b.js"></script>
 create table books(bid varchar(20) primary key, title varchar(30), author varchar(30), status varchar(30));
 
 create table books_issued(bid varchar(20) primary key, issuedto varchar(30));
